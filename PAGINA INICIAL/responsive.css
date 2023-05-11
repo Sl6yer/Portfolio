@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+    header p{
+        margin-right: 0px;
+    }
+    header .li1{
+        display: none;
+    }
+    header .li2{
+        display: none;
+    }
+    header .li3{
+        display: none;
+    }
+    header .li4{
+        display: none;
+    }
+    header .li5{
+        display: none;
+    }
+    #icone2{
+        display: block !important;
+        cursor: pointer;
+    }
+    #icone3{
+        margin-left: 250px;
+    }
+    #icone4{
+        margin-left: 250px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+    }
+    .skills img{
+        margin-top: 30px;
+    }
+    .projects{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+    .projects div{
+        
+        margin: auto;
+        margin-top: 30px;
+    }
+   
+}
